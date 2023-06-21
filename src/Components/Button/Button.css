@@ -1,0 +1,28 @@
+.CatBtn {
+    box-shadow: 3px 4px 0px 0px #1564AD;
+    background-color: #79BBFF;
+    border-radius: 5px;
+    border: 1px solid #337BC4;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 44px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ECC;
+  }
+  .CatBtn:hover {
+    background-color: #378DE5;
+  }
+  .CatBtn:active {
+    position: relative;
+    top: 1px;
+  }
+  
+
+  .ClickCat{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+  }

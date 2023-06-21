@@ -1,0 +1,11 @@
+.CrazyCat {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.KatzenText {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
