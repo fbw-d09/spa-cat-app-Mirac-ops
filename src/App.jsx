@@ -1,15 +1,15 @@
+import Header from "./Components/Header";
+import Api from "./Components/Api";
+import Button from "./Components/Button";
+
 function App() {
-
-
   return (
     <div>
-      {/* Happy Coding start here :) */}
+      <Header />
+      <Api />
+      <Button />
     </div>
-  )
-
+  );
 }
 
-
-
-
-export default App
+export default App;
