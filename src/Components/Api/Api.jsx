@@ -14,6 +14,7 @@ export const Api = () => {
     };
     fetchedData();
   }, []);
+
   return (
     <div className="Api">
       {!isLoading ? (
@@ -26,8 +27,9 @@ export const Api = () => {
             src="./src/Components/Api/cat-loading.gif"
             alt="Bild Katzenkopf"
           />
+          <button className='CatBtn' type='button'>Click Me</button>
         </div>
       )}
     </div>
-  );
+  )
 };
